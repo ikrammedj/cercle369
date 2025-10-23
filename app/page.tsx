@@ -30,7 +30,7 @@ export default function Home() {
               href="#services"
               className="text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
-              Nos Services
+              Nos Activités
             </Link>
             <Link
               href="#approach"
@@ -97,7 +97,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-2xl mx-auto mb-16">
             <h2 className="text-4xl md:text-5xl font-serif font-bold mb-4 text-balance">
-              Nos Services
+              Nos Activités
             </h2>
             <p className="text-lg text-muted-foreground text-pretty">
               Des approches personnalisées pour accompagner votre parcours de
@@ -137,7 +137,8 @@ export default function Home() {
               </CardContent>
             </Card>
 
-            <Card className="border-border/50 bg-card hover:shadow-lg transition-shadow">
+            <Card className="border-border/50 bg-card hover:shadow-lg transition-shadow ">
+            
               <CardContent className="p-8 space-y-4">
                 <div className="h-14 w-14 rounded-2xl bg-primary/10 flex items-center justify-center">
                   <Users className="h-7 w-7 text-primary" />
